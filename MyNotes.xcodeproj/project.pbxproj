@@ -13,6 +13,8 @@
 		434DA3061FF997100052183D /* MyNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 434DA3041FF997100052183D /* MyNotes.xcdatamodeld */; };
 		434DA3081FF997100052183D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434DA3071FF997100052183D /* Assets.xcassets */; };
 		434DA30B1FF997100052183D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434DA3091FF997100052183D /* LaunchScreen.storyboard */; };
+		434DA3191FF9B3270052183D /* NoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DA3181FF9B3270052183D /* NoteController.swift */; };
+		434DA31B1FF9B42E0052183D /* noteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DA31A1FF9B42E0052183D /* noteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		434DA3071FF997100052183D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		434DA30A1FF997100052183D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		434DA30C1FF997100052183D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434DA3181FF9B3270052183D /* NoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteController.swift; sourceTree = "<group>"; };
+		434DA31A1FF9B42E0052183D /* noteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				434DA3091FF997100052183D /* LaunchScreen.storyboard */,
 				434DA30C1FF997100052183D /* Info.plist */,
 				434DA3041FF997100052183D /* MyNotes.xcdatamodeld */,
+				434DA3181FF9B3270052183D /* NoteController.swift */,
+				434DA31A1FF9B42E0052183D /* noteCell.swift */,
 			);
 			path = MyNotes;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				434DA3001FF997100052183D /* ViewController.swift in Sources */,
+				434DA3191FF9B3270052183D /* NoteController.swift in Sources */,
+				434DA31B1FF9B42E0052183D /* noteCell.swift in Sources */,
 				434DA2FE1FF997100052183D /* AppDelegate.swift in Sources */,
 				434DA3061FF997100052183D /* MyNotes.xcdatamodeld in Sources */,
 			);
